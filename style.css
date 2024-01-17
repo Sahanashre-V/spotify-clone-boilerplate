@@ -135,3 +135,57 @@ body{
     background-color: #1ed760;
     padding-left:900px;
 }
+
+/* mobile responsive */
+@media screen and (max-width:600px) and (min-width:250px) {
+    .grp2{
+        display:grid;
+        grid-template-columns: repeat(1,200px);
+        margin-top:20px;
+        gap:10px;
+        padding-left: 10px;
+    }
+
+.grp3{
+    display:grid;
+    grid-template-columns: repeat(1,200px);
+}
+
+.conatiner{
+    display:grid;
+    grid-template-columns: 100px 1fr;
+    height:100vh;
+}
+
+.sidebar{
+    padding-left: 2px;
+}
+
+.spotify{
+    height:25px;
+}
+
+.lib > p,  .lib1 > p{
+    font-size: 0.8rem;
+}
+
+.text{
+    font-size: 0.8rem;
+}
+
+.footer{
+    margin-top: 30px;
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    gap:10px;
+    align-items:center;
+    background-color: #303030;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.img1{
+    height:20px;
+}
+
+}
